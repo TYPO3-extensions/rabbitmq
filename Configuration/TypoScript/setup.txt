@@ -1,0 +1,11 @@
+plugin.tx_rabbitmq {
+	login {
+		host = {$plugin.tx_rabbitmq.login.host}
+		port = {$plugin.tx_rabbitmq.login.port}
+        user = {$plugin.tx_rabbitmq.login.user}
+        password = {$plugin.tx_rabbitmq.login.password}
+        vhost = {$plugin.tx_rabbitmq.login.vhost}
+        # QUEUE Code
+	    # VHOST überschreibbar
+	}
+}

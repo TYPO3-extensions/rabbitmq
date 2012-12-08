@@ -1,0 +1,14 @@
+plugin.tx_rabbitmq {
+	login {
+	    # cat=plugin.tx_rabbitmq/file; type=string; label=RabbitMQ Host
+		host = localhost
+		# cat=plugin.tx_rabbitmq/file; type=string; label=RabbitMQ Port
+		port = 5672
+		# cat=plugin.tx_rabbitmq/file; type=string; label=RabbitMQ Users
+        user = User
+        # cat=plugin.tx_rabbitmq/file; type=string; label=RabbitMQ Users Password
+        password = Password
+        # cat=plugin.tx_rabbitmq/file; type=string; label=RabbitMQ VHost
+        vhost = VHost
+	}
+}
